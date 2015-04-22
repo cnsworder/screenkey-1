@@ -1,98 +1,195 @@
-# chinese translations for screenkey-i package.
-
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# cnsworder <cnsworder@gmail.com>, 2015.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: screenkey 0.2\n"
+"Project-Id-Version: 4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-15 16:22+0200\n"
-"PO-Revision-Date: 2010-06-15 16:34+0200\n"
-"Last-Translator: Pablo Seminario <pabluk@gmail.com>\n"
-"Language-Team: Chinese\n"
+"POT-Creation-Date: 2015-04-22 13:52+0800\n"
+"PO-Revision-Date: 2015-04-22 14:01\n"
+"Last-Translator: cnsworder <cnsworder@gmail.com>\n"
+"Language-Team: zh_CN\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: screenkey:36
-msgid "do not detach from the parent"
-msgstr "不要从父进程分离"
-
-#: screenkey:38
-msgid "show debug information"
-msgstr "显示调试信息"
-
-#: Screenkey/__init__.py:3
+#: Screenkey/__init__.py:5
 msgid "Screencast your keys"
 msgstr "录制你的按键"
 
-#: Screenkey/screenkey.py:42
+#: Screenkey/listenkbd.py:27
+msgid "Esc"
+msgstr "Esc"
+
+#: Screenkey/listenkbd.py:32
+msgid "Caps"
+msgstr "Caps"
+
+#: Screenkey/listenkbd.py:45
+msgid "Home"
+msgstr "Home"
+
+#: Screenkey/listenkbd.py:47
+msgid "PgUp"
+msgstr "PgUp"
+
+#: Screenkey/listenkbd.py:50
+msgid "End"
+msgstr "End"
+
+#: Screenkey/listenkbd.py:52
+msgid "PgDn"
+msgstr "PgDn"
+
+#: Screenkey/listenkbd.py:53
+msgid "Ins"
+msgstr "Ins"
+
+#: Screenkey/listenkbd.py:54
+msgid "Del"
+msgstr "Del"
+
+#: Screenkey/listenkbd.py:92
+msgid "Shift+"
+msgstr "Shift+"
+
+#: Screenkey/listenkbd.py:93
+msgid "Control+"
+msgstr "Control+"
+
+#: Screenkey/listenkbd.py:94
+msgid "Alt+"
+msgstr "Alt+"
+
+#: Screenkey/listenkbd.py:95
+msgid "Super+"
+msgstr "Super+"
+
+#: Screenkey/listenkbd.py:96
+msgid "Hyper+"
+msgstr "Hyper+"
+
+#: Screenkey/screenkey.py:26
 msgid "Top"
 msgstr "顶部"
 
-#: Screenkey/screenkey.py:43
+#: Screenkey/screenkey.py:27
 msgid "Center"
-msgstr "中间"
+msgstr "中部"
 
-#: Screenkey/screenkey.py:44
+#: Screenkey/screenkey.py:28
 msgid "Bottom"
 msgstr "底部"
 
-#: Screenkey/screenkey.py:47
+#: Screenkey/screenkey.py:29
+msgid "Fixed"
+msgstr "固定"
+
+#: Screenkey/screenkey.py:33
 msgid "Large"
 msgstr "大"
 
-#: Screenkey/screenkey.py:48
+#: Screenkey/screenkey.py:34
 msgid "Medium"
 msgstr "中"
 
-#: Screenkey/screenkey.py:49
+#: Screenkey/screenkey.py:35
 msgid "Small"
 msgstr "小"
 
-#: Screenkey/screenkey.py:52
+#: Screenkey/screenkey.py:39
 msgid "Raw"
 msgstr "原生"
 
-#: Screenkey/screenkey.py:53
+#: Screenkey/screenkey.py:40 Screenkey/screenkey.py:44
+#: Screenkey/screenkey.py:50
 msgid "Normal"
 msgstr "普通"
 
-#: Screenkey/screenkey.py:113
+#: Screenkey/screenkey.py:45
+msgid "Baked"
+msgstr "硬的"
+
+#: Screenkey/screenkey.py:46
+msgid "Full"
+msgstr "全部"
+
+#: Screenkey/screenkey.py:51
+msgid "Emacs"
+msgstr "Emacs"
+
+#: Screenkey/screenkey.py:52
+msgid "Mac"
+msgstr "Mac"
+
+#: Screenkey/screenkey.py:133
 msgid "Show keys"
 msgstr "显示按键"
 
-#: Screenkey/screenkey.py:295
+#: Screenkey/screenkey.py:426
 msgid "Preferences"
 msgstr "配置"
 
-#: Screenkey/screenkey.py:299
-msgid "<b>Time</b>"
-msgstr "<b>时间</b>"
+#: Screenkey/screenkey.py:430
+msgid "Time"
+msgstr "时间"
 
-#: Screenkey/screenkey.py:304
+#: Screenkey/screenkey.py:436
 msgid "Display for"
-msgstr "显示到"
+msgstr "显示延迟"
 
-#: Screenkey/screenkey.py:305
+#: Screenkey/screenkey.py:437
 msgid "seconds"
 msgstr "秒"
 
-#: Screenkey/screenkey.py:322
-msgid "<b>Aspect</b>"
-msgstr "<b>详情</b>"
+#: Screenkey/screenkey.py:450
+msgid "Persistent window"
+msgstr "显示窗口"
 
-#: Screenkey/screenkey.py:330
+#: Screenkey/screenkey.py:457
+msgid "Aspect"
+msgstr "外观"
+
+#: Screenkey/screenkey.py:464
+msgid "Font"
+msgstr "字体"
+
+#: Screenkey/screenkey.py:474
+msgid "Screen"
+msgstr "屏幕"
+
+#: Screenkey/screenkey.py:487
 msgid "Position"
 msgstr "位置"
 
-#: Screenkey/screenkey.py:345
+#: Screenkey/screenkey.py:500
 msgid "Size"
 msgstr "大小"
 
-#: Screenkey/screenkey.py:362
-msgid "<b>Keys</b>"
-msgstr "<b>按键</b>"
+#: Screenkey/screenkey.py:517
+msgid "Forget stored geometry"
+msgstr "忽略存储区域"
 
-#: Screenkey/screenkey.py:367
-msgid "Mode"
-msgstr "模式"
+#: Screenkey/screenkey.py:523
+msgid "Keys"
+msgstr "按键"
+
+#: Screenkey/screenkey.py:530
+msgid "Insert mode"
+msgstr "插入模式"
+
+#: Screenkey/screenkey.py:542
+msgid "Backspace mode"
+msgstr "删除模式"
+
+#: Screenkey/screenkey.py:553
+msgid "Modifiers mode"
+msgstr "修改模式"
+
+#: Screenkey/screenkey.py:563
+msgid "Modifiers only"
+msgstr "只显示组合按键"

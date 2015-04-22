@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 from setuptools import setup
+import os
+
+os.system("msgfmt po/zh.po -o po/zh.mo")
 
 setup(name='screenkey', version='0.4',
       description='A screencast tool to display keys',
@@ -32,5 +35,6 @@ setup(name='screenkey', version='0.4',
       scripts=['screenkey'],
       packages=['Screenkey'],
       data_files=[('share/applications', ['data/screenkey.desktop']),
-                  ('share/doc/screenkey', ['README.rst', 'NEWS.rst'])],
+                  ('share/doc/screenkey', ['README.rst', 'NEWS.rst']),
+                  ('share/locale/zh_CN/LC_MESSAGES/screenkey.mo', ['po/zh.mo'])],
 )
